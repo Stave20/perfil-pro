@@ -17,11 +17,25 @@ body {
 .wraper {
     padding: 0 40px;
 }
+
+.grid {
+    display: grid;
+    grid-row-gap: 28px;
+}
+
+.header {
+    background: #f8f9fe;
+    padding-bottom: 100px;
+}
+.top-cards {
+    margin-top: -50px;
+}
 .card {
-    border-radius: 5px;
+    border-radius: 8px;
     overflow: hidden;
     background: #f0f3fa;
-    text-align: center;   
+    text-align: center;
+   
 }
 .card:before {
 content: "";
