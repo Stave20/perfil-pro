@@ -128,7 +128,6 @@ top: 0;
     margin-bottom: 1000px;
    }
    .card-small {
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 1em;
@@ -149,17 +148,15 @@ top: 0;
 
    }
    .card-small-views {
-    border: 1px solid green;
-    
-
-    
+    color: var(--gray);
+    font-weight: bold;
+    font-size: .8em;
    }
    .card-small-icon {
-   border: 1px solid blue;
    text-align: right;
-  }
+
+   }
    .card-small-number {
-    border: 1px solid gold;
     text-align: left  ;
     font-weight: bold;
     font-size: 2.3em;
@@ -167,16 +164,20 @@ top: 0;
 
    }
    .card-small-percentage {
-   border: 1px solid green;
-   text-align: right;
+   text-align:right;
    display: flex;
-   align-items: flex-end;
-   color: var(--bright-red);
+   color: var(--lime-green);
    font-size: .9em;
    font-weight: bold;
+   align-items: flex-end;
    justify-content: flex-end;
-   
    }
+   .card-small-percentage.is-danger {
+    color: var(--bright-red);
+
+   }
+
+
 
     
        
